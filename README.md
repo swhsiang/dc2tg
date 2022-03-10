@@ -5,3 +5,7 @@ A bot that copies Discord messages and post them to Telegram channels
 
 * Transfer messages from Discord channels to Telegram channels
 * Transfer messages from a Telegram channel to another Telegram channel
+
+## Quick Start
+
+* Remember to update `dev.env` file first.
