@@ -9,10 +9,10 @@ import (
 )
 
 // change it to woody's channel id
-const TG_SUBSCRIBED_CHANNEL_IDS = 
+const TG_SUBSCRIBED_CHANNEL_IDS = -1001665500012
 
 // change it to 168 group chat id
-const TG_LISTENER_CHAT_ID = 
+const TG_LISTENER_CHAT_ID = -1001586751727
 
 func telegram() {
 	bot, err := tgbotapi.NewBotAPI(os.Getenv("TG_APP_TOKEN"))
